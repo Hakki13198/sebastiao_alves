@@ -1,0 +1,649 @@
+body {
+  margin: 0;
+  max-width: 1280px;
+  display: block;
+  margin: auto;
+  font-family: "IBM Plex Sans";
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.livros:active .dropdown-menu {
+  display: block;
+}
+
+a,
+.livros,
+.dropdown {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  border: none;
+}
+
+.dropdown-item {
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.dropdown-item:hover {
+  color: #b47d33;
+  background-color: transparent !important;
+}
+
+.nav_css > a {
+  transition-duration: 0.4s;
+}
+
+.nav_css > a.active,
+.novidade,
+.footer_header,
+.nav_css > a:hover {
+  color: #b47d33 !important;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+}
+
+h3 {
+  color: #4d4d4d;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 15px;
+}
+p,
+.footer_info {
+  color: #4d4d4d;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+header {
+  position: relative;
+}
+.top-header-wrapper {
+  position: relative;
+}
+.top-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  margin-top: 52px;
+}
+
+.nav-link {
+  font-family: "Lato", "sans-serif";
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link.show {
+  color: #4d4d4d !important;
+}
+
+.nav-link:hover {
+  color: #b47d33;
+}
+.nav-link.active,
+.nav-link:active,
+.btn-imprensa.active {
+  color: #b47d33 !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.voltar-atras,
+.livros-btn,
+.saber_mais,
+.ver-mais {
+  width: 120px !important;
+  height: 30px;
+  border: none;
+  transition-duration: 0.75s;
+  display: block;
+}
+.voltar-atras {
+  background-image: url("./img/desktop/voltar1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.voltar-atras:hover {
+  background-image: url("./img/desktop/voltar2.svg");
+}
+.saber_mais {
+  background-image: url("./img/desktop/sabermais1.svg");
+}
+.ver-mais {
+  background-image: url("./img/desktop/vermais.svg");
+  background-position: center;
+}
+.ver-mais:hover {
+  background-image: url("./img/desktop/vermais-cinza.svg");
+}
+
+.button-a-css {
+  width: 120px !important;
+  height: 30px !important;
+}
+
+.saber-mais-branca {
+  position: absolute;
+  right: 100px;
+}
+
+.saber_mais:hover,
+.saber_mais:active {
+  background-image: url("./img/desktop/sabermais2.svg");
+}
+
+.saber_mais_anchor {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+.nav_css {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.carousel-container {
+  position: relative;
+}
+.carousel {
+  position: relative;
+  z-index: 5 !important;
+  padding: 0;
+  margin: 0;
+}
+.carousel-item {
+  padding: 0;
+  width: 100%;
+  height: calc(100vh - 100px);
+  max-height: 730px;
+}
+
+.carousel-item img {
+  position: relative;
+  padding: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.container-fluid {
+  width: 100% !important;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-caption {
+  position: relative;
+  top: -484px;
+  text-align: left;
+  max-width: 500px;
+}
+.carousel-caption > h3 {
+  max-width: 370px;
+}
+
+.carousel-indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  bottom: 70px;
+  left: -11px;
+}
+
+.carousel-indicators > button {
+  border: 1px solid #707070 !important;
+  background-color: #70707000 !important;
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators > button.active {
+  background-color: #707070 !important;
+  border: 1px solid #707070 !important;
+}
+.caixa1 {
+  z-index: 50;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-right: 10px;
+}
+
+.caixa1-pages {
+  height: 130px;
+}
+
+.img-autor {
+  display: block;
+  margin: auto;
+}
+
+.caixa {
+  background-color: white;
+  position: relative;
+  top: -45px;
+  left: 90px;
+  z-index: 60;
+  max-width: 1190px;
+  min-height: 130px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: -5px 0 5px -2px rgba(0, 0, 0, 0.096),
+    0 5px 5px -2px rgba(0, 0, 0, 0.151);
+}
+.caixa img {
+  object-fit: contain;
+}
+.ultimos-livros {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 86%;
+  margin-top: 70px;
+}
+
+.caixa img {
+  margin: 60px 40px;
+  box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.541);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.texto-caixa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 60px;
+  padding-right: 100px;
+  width: 70% !important;
+}
+.caixa-pages {
+  width: 100% !important;
+  height: 130px;
+}
+
+.texto-caixa p {
+  margin: 0;
+}
+
+.texto-caixa button {
+  display: block;
+  align-self: flex-end;
+  margin-top: 40px;
+}
+
+.p-main-container {
+  display: block;
+  margin: auto;
+  margin-top: 65px;
+}
+
+.p-main-pages {
+  text-align: left;
+  padding: 0 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.livro-container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 75px;
+  margin-left: 75px;
+  width: 80%;
+}
+
+.livro-container p {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.livro-container button {
+  position: relative;
+  right: 0px;
+}
+.livros-text-wrapper a {
+  margin-left: auto;
+}
+.livros-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.voltar-atras,
+.livros-btn {
+  background-image: url("./img/desktop/voltar1.svg");
+}
+
+.livros-btn {
+  position: relative;
+  right: 0;
+}
+
+.livros-btn-2 {
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+
+.imagem-livros {
+  float: left;
+  margin: 0 44px;
+  max-width: 305px;
+}
+
+.destaques {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-top: 70px;
+  margin-bottom: 106px;
+}
+.texto-caixa-pages {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.menu-selecionado {
+  color: #b47d33;
+  font-weight: bold;
+}
+
+.t1 {
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.carousel-h3 {
+  font-size: 2.5rem;
+}
+.carousel-p {
+  font-size: 0.813rem;
+}
+.p {
+  font-family: "IBM Plex Sans";
+  font-weight: light;
+  font-size: 13px;
+  color: #4d4d4d;
+}
+
+.ultimos-livros > .t1 {
+  margin-top: 85px;
+  margin-bottom: 23px;
+}
+
+.card > img,
+.card-body,
+.card {
+  border-radius: 0;
+  border: none;
+}
+.card {
+  width: 33%;
+  box-shadow: 5px 0 5px -2px rgba(0, 0, 0, 0.13),
+    0 5px 5px -2px rgba(0, 0, 0, 0.13);
+}
+.card-text {
+  margin-top: 0;
+}
+.card-title {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  height: 430px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.button-wrapper-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: right;
+  width: 100%;
+}
+
+.footer_links {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+hr {
+  border: none;
+  border-bottom: 1px solid #4d4d4d;
+  height: 1px;
+  width: calc(100% - 110px);
+  margin: 15px auto;
+}
+
+.socials {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding-right: 40px;
+}
+
+.spacing_contacto {
+  margin-bottom: 20px;
+}
+.reclamacoes {
+  margin-top: 58px;
+}
+.margin-ralc {
+  margin-left: 43px;
+}
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.cookies {
+  margin-top: 88px;
+}
+
+.imprensa-no-shadow,
+.imprensa {
+  padding: 0 calc(55px / 2);
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.imprensa {
+  box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.212);
+}
+
+.imprensa-no-shadow {
+  margin-bottom: 90px;
+}
+
+.imprensa *,
+.imprensa-no-shadow * {
+  width: 75%;
+}
+
+.border-imprensa {
+  border-bottom: 1px solid #b47d33;
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+.imprensa-data {
+  text-align: end;
+  padding-top: 12px;
+  margin: 0;
+  font-family: "Ibm Plex Sans";
+  font-size: 13px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-bottom: 40px;
+}
+
+.paginacao {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.paginacao-numeros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.paginacao-numeros button {
+  height: 30px;
+  width: 17px;
+  font-size: 1.438rem;
+  border: none;
+  background-color: transparent;
+  font-family: "Ibm Plex Sans";
+  color: #4d4d4d;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.setas {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  transition-duration: 0.4s;
+  margin: 0 45px;
+}
+
+.seta-esquerda {
+  background-image: url("img/desktop/setaesquerda1.svg");
+}
+
+.seta-esquerda:hover {
+  background-image: url("img/desktop/setaesquerda2.svg");
+}
+
+.seta-direita {
+  background-image: url("img/desktop/setadireita1.svg");
+}
+
+.seta-direita:hover {
+  background-image: url("img/desktop/setadireita2.svg");
+}
+
+.contactos-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.top-contactos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+  align-content: space-between;
+}
+
+.hr {
+  width: 60px;
+  height: 1px;
+  background-color: #707070 !important;
+  border-color: #707070 !important;
+  margin: 20px auto;
+}
+
+.contactos-titulo {
+  color: #b47d33;
+  font-family: "IBM Plex Sans";
+  font-size: 0.938rem;
+}

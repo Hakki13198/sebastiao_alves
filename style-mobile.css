@@ -1,0 +1,377 @@
+body {
+  overflow-x: hidden;
+}
+
+.top-header-mobile {
+  position: absolute;
+  top: 70px;
+  z-index: 10;
+  width: 100%;
+}
+
+.top-header-contents-mobile {
+  border-bottom: 1px solid black;
+  width: calc(100% - 70px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+  margin: 0 35px !important;
+}
+
+.top-header-h1-mobile {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-mobile,
+.dropdown-mobile:active,
+.dropdown-mobile:focus,
+.dropdown-mobile:hover {
+  width: 100dvw;
+  text-align: left;
+  position: absolute;
+}
+
+.dropdown-mobile.show {
+  inset: 14px auto auto 0px !important;
+  width: 105vw !important;
+  box-shadow: 0px 0px 10px 0px rgb(175, 175, 175);
+}
+
+.hamb-menu,
+.hamb-menu:active,
+.hamb-menu:focus {
+  display: block;
+  background: transparent url("img/mobile/hamb-menu.svg") center/contain
+    no-repeat !important;
+  color: transparent !important;
+  width: fit-content;
+  height: fit-content;
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.carousel-mobile {
+  height: 760px !important;
+}
+
+.novidade-mobile {
+  margin-top: 50px !important;
+  max-width: 100%;
+  display: block;
+  margin: 0 35px;
+}
+
+.carousel-caption-mobile {
+  position: relative;
+  left: 15px;
+  margin-top: 65px;
+  margin-right: 35px;
+}
+
+.carousel-caption-mobile h3,
+.caption-mobile h3 {
+  font-size: 1.75rem;
+}
+
+.carousel-indicators-mobile {
+  position: absolute;
+  bottom: 40px;
+}
+
+.caption-mobile {
+  width: calc(100% - 70px);
+  position: absolute;
+  top: 320px;
+  left: 35px;
+  margin-right: 35px !important;
+  max-width: 100% !important;
+}
+
+.hr-footer-mobile {
+  border-bottom: 0.5px solid black;
+  width: 280px;
+  margin: auto;
+}
+
+.contactos-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.redes-links-mobile {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.reclamacoes-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cookies-mobile-p {
+  margin: 60px 35px;
+}
+
+.redes-mobile img,
+.social-links img {
+  transition-duration: 0.4s;
+}
+
+.redes-mobile img:hover,
+.social-links img:hover {
+  filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropdown-menu {
+    width: 100% !important;
+    text-align: left;
+    background-color: white;
+  }
+  .navbar-nav {
+    width: 100% !important;
+    background-color: white;
+  }
+
+  .nav-link {
+    margin-left: 20px;
+  }
+
+  .dropdown-menu {
+    width: 80% !important;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 23px;
+  }
+  .carousel {
+    background-image: linear-gradient(
+      rgb(220, 220, 220),
+      rgb(222, 222, 222),
+      rgb(208, 208, 208)
+    );
+  }
+  .carousel-item img {
+    width: auto;
+    height: auto;
+    margin: auto;
+    max-height: 730px;
+    object-fit: contain !important;
+    vertical-align: middle !important;
+  }
+
+  .carousel-caption {
+    width: 85%;
+  }
+
+  .carousel-h3 {
+    font-size: 1.5rem;
+  }
+  .carousel-p {
+    font-size: 0.813rem;
+  }
+
+  .caixa {
+    z-index: 160;
+    width: 100dvw;
+    height: auto;
+    top: -45px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .texto-caixa {
+    width: 90% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 40px !important;
+    padding-right: 10px !important;
+    margin-top: 0;
+  }
+
+  .texto-caixa p,
+  .texto-caixa .t1 {
+    width: 100%;
+  }
+  .p,
+  .texto-caixa h3 {
+    margin-left: 0 !important;
+    padding-right: 20px !important;
+  }
+
+  .p {
+    margin-top: 30px;
+  }
+
+  .texto-caixa .t1 {
+    font-size: 22px;
+  }
+  .saber-mais-branca {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .ultimos-livros {
+    width: 100dvw;
+  }
+  .destaques-mobile {
+    margin-top: 40 !important;
+  }
+  .destaques-mobile,
+  .card {
+    width: 100% !important;
+  }
+  .destaques {
+    margin-bottom: 60px !important;
+  }
+  .socials,
+  .contactos,
+  table {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .caixa {
+    z-index: 160;
+    width: 100%;
+    height: auto;
+    top: -45px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .texto-caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 40px !important;
+    margin-top: 0;
+  }
+  .saber-mais-branca {
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+    left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+    max-height: 770px !important;
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .h1-mobile {
+    font-size: 28px;
+    margin: 0 !important;
+  }
+
+  .carousel-caption-mobile {
+    width: 85%;
+    margin-left: 29px;
+    margin-right: 35px;
+    margin-top: 80px;
+  }
+
+  .carousel-indicators {
+    left: -12px;
+    bottom: 55px;
+  }
+
+  .caixa {
+    z-index: 160;
+    width: 100%;
+    height: auto;
+    top: -45px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .texto-caixa {
+    width: 360px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 40px !important;
+    margin-top: 0;
+  }
+
+  .texto-caixa p,
+  .texto-caixa .t1 {
+    width: 100%;
+    margin-left: 40px;
+  }
+  .texto-caixa .t1 {
+    font-size: 22px;
+  }
+  .saber-mais-branca {
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+    left: 0 !important;
+  }
+
+  .ultimos-livros {
+    width: 100dvw;
+  }
+  .destaques-mobile {
+    margin-top: 40 !important;
+  }
+  .destaques-mobile,
+  .card {
+    width: 100% !important;
+  }
+  .destaques {
+    margin-bottom: 60px !important;
+  }
+  .socials,
+  .contactos,
+  table {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}

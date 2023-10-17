@@ -1,0 +1,153 @@
+.button-wrapper-autor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ver-mais-wrapper {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .texto-caixa-pages-mobile {
+    width: 100% !important;
+    min-height: 130px !important;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    margin: 0px 22.5px;
+  }
+  .autor-subtitulo,
+  .autor-titulo {
+    margin: 0;
+  }
+  .autor-subtitulo,
+  .autor-titulo {
+    padding-bottom: 14px;
+  }
+
+  .img-autor-mobile {
+    width: 350px;
+    margin: auto;
+    padding: 0px 22.5px;
+  }
+  .p-main-container {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .p-main-pages {
+    width: 100%;
+    padding: 0 22.5px;
+  }
+  .button-wrapper-right {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .voltar-atras-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .livro-container {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 40px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagem-livros {
+    float: none !important;
+    object-fit: contain;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .livro-container p {
+    width: 85%;
+    margin: 0;
+  }
+
+  .livro-container button {
+    display: block;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+  }
+
+  .setas {
+    width: fit-content;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    transition-duration: 0.4s;
+  }
+  .imprensa *,
+  .imprensa-no-shadow * {
+    width: 100% !important;
+  }
+  .top-contactos {
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .livro-container {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 40px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagem-livros {
+    float: none !important;
+    object-fit: contain;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .livro-container p {
+    width: 85%;
+    margin: 0;
+  }
+
+  .livro-container button {
+    display: block;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+    text-align: center;
+  }
+
+  .top-contactos {
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .livros-text-wrapper a {
+    margin-left: none;
+    margin: 25px auto !important;
+  }
+
+  .livros-text-wrapper p {
+    width: 100%;
+  }
+  .voltar-atras {
+    height: 70px;
+  }
+}

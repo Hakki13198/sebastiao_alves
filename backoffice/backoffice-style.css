@@ -1,0 +1,256 @@
+* {
+  font-family: "IBM Plex Sans" !important;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  background-color: #0b0c10;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  color: #c5c6c7;
+}
+
+.ol-guia {
+  list-style-position: inside;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+ul a,
+.login-submit-css,
+.button-css {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #66fcf1;
+  transition-duration: 0.4s;
+}
+
+ul a,
+.button-css {
+  border: 2px solid #c5c6c7;
+  transition-duration: 0.5s;
+}
+
+ul a:hover {
+  background-color: #66fcf1;
+  color: #1f2833;
+}
+ul a:active {
+  transform: translateY(-4px);
+}
+
+.login-css {
+  border: 2px solid #c5c6c7;
+  padding: 35px;
+  width: 50%;
+  margin: 150px auto;
+  border-radius: 25px;
+}
+
+.login-css,
+input {
+  outline: none !important;
+  border: 2px solid #c5c6c7 !important;
+}
+
+.backoffice-login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-css-input,
+.login-submit-css {
+  width: 200px;
+  color: #000;
+  text-align: center;
+}
+.login-css-input {
+  padding: 10px 0px;
+}
+.login-submit-css {
+  padding: 15px 0px;
+  transition-duration: 0.5s !important;
+}
+
+.login-submit-css:hover {
+  background-color: #66fcf1;
+  color: #c5c6c7;
+}
+
+label {
+  color: #c5c6c7;
+  font-size: 24px;
+}
+
+.login-submit-css:active {
+  transform: translateY(-2px);
+}
+
+.div-css {
+  border: 2px solid #c5c6c7;
+  padding: 45px;
+  text-align: center;
+  width: 60%;
+  margin: 100px auto;
+  font-size: 25px;
+}
+
+.div-css h2 {
+  color: #66fcf1;
+}
+
+.table-div {
+  width: 100%;
+}
+
+table,
+tr,
+td,
+th {
+  border: 2px solid #c5c6c7;
+  color: #c5c6c7;
+  border-collapse: collapse;
+  padding: 10px;
+}
+th {
+  color: #66fcf1;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+table {
+  width: 80%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto !important;
+}
+
+.button-css,
+.button-css-large {
+  border: 2px solid #c5c6c7;
+  color: #66fcf1;
+  background-color: #1f2833;
+  text-decoration: none;
+  cursor: pointer !important;
+  transition-duration: 0.4s;
+}
+
+.button-css a,
+.button-css-large a {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+.button-css {
+  width: 100px;
+}
+
+.button-css-large {
+  width: fit-content;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: block;
+  margin: auto;
+}
+
+.button-css:hover,
+.button-css-large:hover {
+  background-color: #66fcf1;
+  color: #1f2833;
+}
+
+.button-css:active,
+.button-css-large:active {
+  transform: translateY(-2px);
+}
+
+.login-invalido {
+  color: red;
+  font-size: 20px;
+}
+
+.sucesso {
+  color: #c5c6c7;
+}
+
+.input-update {
+  width: 100%;
+  height: 40px;
+}
+
+.ck-editor__editable_inline {
+  min-height: 200px;
+  font-size: 16px;
+  color: #000;
+}
+
+.criar {
+  margin-bottom: 50px;
+}
+
+.hr-backoffice-home {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.ultimos-livros-p {
+  text-align: justify;
+  font-size: 16px;
+  color: #c5c6c7;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.hr-contactos {
+  width: 50%;
+  margin: 15px auto;
+}
+
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
